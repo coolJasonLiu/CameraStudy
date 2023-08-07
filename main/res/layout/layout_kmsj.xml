@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#59000000"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <SeekBar
+        android:id="@+id/seek_kmsj"
+        android:layout_width="350dp"
+        android:max="13"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="5"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/seek_kmsj_tx"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
